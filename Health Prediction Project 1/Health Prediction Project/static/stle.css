@@ -1,0 +1,191 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 1
+}
+body {
+    background-color: #F0F0F0; /* Light gray background */
+  }
+  .container {
+    background-color: #fff; /* White container */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    margin: 20px auto; /* Center the container */
+    max-width: 500px; /* Limit container width */
+  }
+  h1 {
+    color: #C62828; /* Primary red for title */
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  h1::after {
+    content: url("heart.svg"); /* Replace with path to your heart icon */
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Form Styling */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  label {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Prediction Result Section */
+  #prediction-result {
+    background-color: #E0E0E0; /* Light gray background */
+    background-image: linear-gradient(to right, #C62828, #4169E1); /* Red to blue gradient */
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+    display: none; /* Initially hidden */
+  }
+  #prediction-result.active {
+    display: block; /* Show after prediction */
+  }
+  #prediction-text {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray background */
+  }
+  
+  h1, h2, h3 {
+    color: #C62828; /* Primary red for headings */
+  }
+  
+  p {
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  a {
+    color: #4169E1; /* Secondary blue for links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #fff; /* White header background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 15px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .btn {
+    background-color: #C62828; /* Primary red for button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .btn:hover {
+    background-color: #992323; /* Darker red on hover */
+  }
+  
+  /* Home Page Styles */
+  .form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+  }
+  
+  .form-container form {
+    width: 45%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-container form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-container form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  
+  /* Register/Login Page Styles */
+  #message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  /* Predict Page Styles */
+  section {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+  }
+  
